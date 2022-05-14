@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar perfil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light text-align: center;"
+            style="background-color: #007bff; padding-top: 10px; padding-bottom: 10px;" <a class="navbar-brand"
+            href="#">
+            <div class="row">
+                <img src="images/logo1.png" alt="..." height="56" style="padding-right: 45px;padding-left: 40px">
+
+                <form class="form-inline" style="padding-right: 60px">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-success my-2 my-sm-0;" type="submit">Pesquisar</button>
+                </form>
+
+                <div class="form-inline">
+                    <div class="row nav-item" style="margin-left: 65px; height: fit-content;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-house" viewBox="0 0 16 16" style="color: white;">
+                            <path fill-rule="evenodd"
+                                d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                            <path fill-rule="evenodd"
+                                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                        </svg>
+                        <a href="home.html">
+                            <h6 style="color: white;padding-left: 5px;align-items:center">
+                                Home
+                            </h6>
+                        </a>
+                    </div>
+                    <div class="row" style="margin-left: 65px; height: fit-content;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16" style="color: white">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                        <a href="perfil.html">
+                            <h6 style="color: white;padding-left: 5px;align-items:center">
+                                Meu Perfil
+                            </h6>
+                        </a>
+
+                    </div>
+                    <div class="row" style="margin-left: 65px; height: fit-content;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-bell" viewBox="0 0 16 16 " style="color: white">
+                            <path
+                                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                        </svg>
+                        <h6 style="color: white;padding-left: 5px;align-items:center">
+                            Notificações
+                        </h6>
+                    </div>
+                </div>
+
+
+            </div>
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <a href="login.html">
+                <h6 style="color: white;">Sair</h6>
+            </a>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                </ul>
+            </div>
+    </div>
+    </nav>
+    </div>
+    <h2 style="margin-top:15px; margin-left: 10%; margin-right: 60px;">Cadastre-se</h2>
+    <hr width="80%" size="2" color="#28a746">
+
+    <div class="d-flex justify-content-center">
+        <div class="card shadow-lg rounded"
+            style="width: 80%; margin-left: 60px; margin-right: 60px;  border-bottom-left-radius: 3%;border-bottom-right-radius: 3%;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-header" style="background-color: #32a84e;">
+                <b>
+                    <h4 class="card-title" style="color: white;">
+                        Dados pessoais
+                    </h4>
+                </b>
+                <p class="card-text"></p>
+            </div>
+            <div class="card-body">
+                <div class="cadastroStyle">
+                    <!-- style="width: 400px;" -->
+                    <b><label for="nome" class="form-label">Nome completo:</label></b>
+                    <input type="text" class="form-control" id="nome" aria-describedby="nome"
+                        placeholder="Maria Pereira">
+                    <!-- <div id="nomeHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div> -->
+                </div>
+                <br>
+                <div class="cadastroStyle">
+                    <b><label for="email" class="form-label">Email:</label></b>
+                    <input type="email" class="form-control" id="email" aria-describedby="email"
+                        placeholder="maria@gmail.com">
+                    <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+                </div>
+                <br>
+                <div class="cadastroStyle" style="width: 500px;">
+                    <b><label for="senha" class="form-label">Nova senha:</label></b>
+                    <input type="password" class="form-control" id="senha" aria-describedby="senhaHelp">
+                    <div id="senhaHelp" class="form-text"></div>
+                    <span id="senhaHelpInline" class="form-text">
+                        Deve ser entre 8-20 caracteres
+                    </span>
+                </div>
+                <br>
+                <div class="cadastroStyle" style="width: 500px;">
+                    <b><label for="confirma-senha" class="form-label">Confirme a senha:</label></b>
+                    <input type="password" class="form-control" id="confirma-senha"
+                        aria-describedby="confirma-senhaHelp">
+                    <div id="confirma-senhaHelp" class="form-text"></div>
+
+                </div>
+
+                <br>
+                <div class="cadastroStyle" style="width: 300px;">
+                    <b><label for="whatsapp" class="form-label">Número Whatsapp:</label></b>
+                    <input type="text" class="form-control" id="whatsapp" aria-describedby="whatsappHelp"
+                        placeholder="(83) 91234-5678">
+                    <div id="whatsappHelp" class="form-text"></div>
+                </div>
+                <br>
+                <div class="form-inline cadastroStyle">
+                    <b><label>Data nascimento:</label></b>
+                    <input type="date" class="form-control" style="width: 300px; margin-left: 10px;"
+                        id="data-nascimento" aria-describedby="data-nascimento" placeholder="dd / mm / aaaa">
+                </div>
+            </div>
+            <br>
+
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <hr width="80%" size="2" color="#28a746">
+    <br>
+
+    <div class="d-flex justify-content-center">
+        <div class="card shadow-lg rounded"
+            style="width: 80%; margin-left: 60px; margin-right: 60px;  border-bottom-left-radius: 3%;border-bottom-right-radius: 3%">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-header" style="background-color: #32a84e;">
+                <b>
+                    <h4 class="card-title" style="color: white;">
+                        Dados da página
+                    </h4>
+                </b>
+                <p class="card-text"></p>
+            </div>
+            <br>
+
+            <div class="card-body">
+                <div class="cadastroStyle" style="width: 350px;">
+                    <b><label for="descricao" class="form-label">Descrição bio:</label></b>
+                    <input type="text" class="form-control" id="descricao" aria-describedby="descricaopHelp"
+                        style="width: 375px;" placeholder="Estudante">
+                    <div id="descricaoHelp" class="form-text"></div>
+                </div>
+                <br>
+
+                <div>
+                    <b><label for="interesses" class="form-label cadastroStyle">Interesses pessoais:</label></b>
+                    <div class="form-inline cadastroStyle">
+                        <b><label style="margin-right: 10px;">1:</label></b>
+                        <input type="text" class="form-control" id="interesses" aria-describedby="interessesHelp"
+                            style="width: 350px;" placeholder="Esportes">
+                        <div id="interessesHelp" class="form-text"></div>
+                    </div>
+                    <br>
+                    <div class="form-inline cadastroStyle">
+                        <b><label style="margin-right: 10px;">2:</label></b>
+                        <input type="text" class="form-control" id="interesses2" aria-describedby="interessesHelp2"
+                            style="width: 350px;" placeholder="Tecnologia">
+                        <div id="interessesHelp2" class="form-text"></div>
+                    </div>
+                    <button type="button" class="btn"
+                        style="background-color: #007bff; border-radius: 7px; margin-left: 10px; margin-top: 8px;">
+                        <h7 style="color: white;">+</h7>
+                    </button>
+                </div>
+                <br>
+                <div class="row" style="margin-left: 0px;">
+                    <div class="cadastroStyle">
+                        <b><label>Foto do perfil:</label></b>
+                        <button type="button" class="btn"
+                            style="background-color: #007bff; border-radius: 7px; margin-left: 15px;">
+                            <h7 style="color: white;">Escolher</h7>
+                        </button>
+                        <br>
+                    </div>
+                </div>
+                <br>
+
+                <div>
+                    <b><label for="educacao" class="form-label cadastroStyle">Educação:</label></b>
+                    <div class="form-inline cadastroStyle">
+                        <b><label style="margin-right: 10px;">1:</label></b>
+                        <input type="text" class="form-control" id="educacao" aria-describedby="educacaoHelp"
+                            style="width: 350px;" placeholder="Cursando Ciência da Computação">
+                        <div id="educacaoHelp" class="form-text"></div>
+                    </div>
+                    <br>
+                    <div class="form-inline cadastroStyle">
+                        <b><label style="margin-right: 10px;">2:</label></b>
+                        <input type="text" class="form-control" id="educacao2" aria-describedby="educacaoHelp2"
+                            style="width: 350px;" placeholder="Ensino médio completo">
+                        <div id="educacaoHelp2" class="form-text"></div>
+                    </div>
+                    <button type="button" class="btn"
+                        style="background-color: #007bff; border-radius: 7px; margin-left: 10px; margin-top: 8px;">
+                        <h7 style="color: white;">+</h7>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <hr width="80%" size="2" color="#28a746">
+    <br>
+
+
+    <div class="d-flex justify-content-center">
+        <div class="card shadow-lg rounded"
+            style="width: 80%; margin-left: 60px; margin-right: 60px;  border-bottom-left-radius: 3%;border-bottom-right-radius: 3%">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-header" style="background-color: #32a84e;">
+                <b>
+                    <h4 class="card-title" style="color: white;">
+                        Endereço
+                    </h4>
+                </b>
+                <p class="card-text"></p>
+            </div>
+            <br>
+
+            <div class="card-body">
+                <div class="row" style="margin-left: 0px;">
+                    <div class="form-group form-inline cadastroStyle">
+                        <b><label for="cidade" class="form-label">Cidade:</label></b>
+                        <input type="text" class="form-control" id="cidade" aria-describedby="cidadeHelp"
+                            style="margin-left: 12%; width: 400px;" placeholder="Cajazeiras">
+                        <div id="cidadeHelp" class="form-text"></div>
+                    </div>
+                    <div class="form-group form-inline">
+                        <b><label for="uf" class="form-label">UF:</label></b>
+                        <input type="text" class="form-control" id="uf" aria-describedby="ufpHelp"
+                            style="margin-left: 105px; width: 70px;" placeholder="PB">
+                        <div id="ufHelp" class="form-text"></div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="form-group form-inline cadastroStyle">
+                    <b><label for="nacionalidade" class="form-label">Nacionalidade:</label></b>
+                    <input type="text" class="form-control" id="nacionalidade" aria-describedby="nacionalidadepHelp"
+                        style="margin-left: 15px; width: 400px;" placeholder="Brasileiro">
+                    <div id="nacionalidadeHelp" class="form-text"></div>
+                </div>
+                <br>
+                <div class="form-group form-inline cadastroStyle">
+                    <b><label for="cep" class="form-label">CEP:</label></b>
+                    <input type="text" class="form-control" id="cep" aria-describedby="ceppHelp"
+                        style="margin-left: 16%; width: 400px;" placeholder="58900-000">
+                    <div id="cepHelp" class="form-text"></div>
+                </div>
+                <br>
+
+                <div class="row" style="margin-left: 0px;">
+                    <div class="form-group form-inline cadastroStyle">
+                        <b><label for="rua" class="form-label">Rua:</label></b>
+                        <input type="text" class="form-control" id="descricao" aria-describedby="ruapHelp"
+                            style="margin-left: 16%; width: 400px;" placeholder="Avenida Comandante Vital Rolim">
+                        <div id="ruaHelp" class="form-text"></div>
+                    </div>
+                    <br>
+                    <div class="form-group form-inline cadastroStyle">
+                        <b><label for="numero" class="form-label">Número:</label></b>
+                        <input type="number" class="form-control" id="numero" aria-describedby="numeropHelp"
+                            style="margin-left: 60px; width: 70px;" placeholder="35">
+                        <div id="numeroHelp" class="form-text"></div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row" style="margin-left: 0px;">
+                    <div class="form-group form-inline cadastroStyle">
+                        <b><label for="bairro" class="form-label">Bairro:</label></b>
+                        <input type="text" class="form-control" id="bairro" aria-describedby="bairropHelp"
+                            style="margin-left: 13%; width: 400px;" placeholder="Centro">
+                        <div id="bairroHelp" class="form-text"></div>
+                    </div>
+                    <br>
+                    <div class="form-group form-inline cadastroStyle">
+                        <b><label for="comlemento" class="form-label">Comlemento:</label></b>
+                        <input type="text" class="form-control" id="comlemento" aria-describedby="comlementopHelp"
+                            style="margin-left: 25px; width: 400px;" placeholder="Casa">
+                        <div id="comlementoHelp" class="form-text"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+    </div>
+
+    <br>
+    <br>
+
+    <center>
+        <button type="button" class="btn shadow-lg rounded"
+            style="background-color: #007bff; border-radius: 7px; margin-left: 10px; margin-top: 8px; width: 70%; height: 60px;">
+            <h7 style="color: white;"><b>CADASTRAR</b></h7>
+        </button>
+    </center>
+
+    <br>
+    <br>
+    <br>
+
+</body>
