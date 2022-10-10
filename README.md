@@ -17,9 +17,6 @@ Tecnologias utilizadas:
 ### Cadastro
 ![Cadastro](https://user-images.githubusercontent.com/75028196/194679079-7d955b42-6302-4ba4-8cf5-9db63330d8f8.png)
 
-### Editar perfil
-![Editar perfil](https://user-images.githubusercontent.com/75028196/194679084-e5a1d78d-871e-4e2e-929d-b4ba8b7f56a1.png)
-
 ### Perfil
 ![Educação](https://user-images.githubusercontent.com/75028196/194679086-a4c63a0e-8de3-4be5-9682-732603780f00.png)
 
